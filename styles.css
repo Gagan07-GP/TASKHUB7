@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url('Montserrat,Playfair_Display,Raleway/Montserrat/static/Montserrat-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: url('Montserrat,Playfair_Display,Raleway/Montserrat/static/Montserrat-Light.ttf') format('truetype');
+    /* font-weight: normal; */
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PlayfairDisplay-Medium';
+    src: url('Montserrat,Playfair_Display,Raleway/Playfair_Display/static/PlayfairDisplay-Medium.ttf') format('truetype');
+    /* font-weight: normal; */
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Raleway-Medium';
+    src: url('Montserrat,Playfair_Display,Raleway/Raleway/static/Raleway-Medium.ttf') format('truetype');
+    /* font-weight: normal; */
+    font-style: normal;
+}
+.pname{
+    font-family: 'Raleway-Medium';
+    font-style:normal;
+    font-weight: 400;
+}
+.occu{
+    font-family: 'Raleway-Medium';
+    font-style:normal;
+    font-weight: 400;
+}
+.navsec{
+    font-family: 'Montserrat-Light',sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.ttl{
+    font-family:'Montserrat-SemiBold',sans-serif ;
+    font-weight:700;
+    font-style: normal;   
+}
+.signsec{
+    font-family:'Montserrat-SemiBold',sans-serif ;
+    font-style: normal;
+    font-weight: 600;
+}
+#headhero{
+    font-family: 'PlayfairDisplay-Medium';
+    font-style: italic;
+    font-weight:700;
+}
+#herotext{
+    font-family: 'Raleway-Medium';
+    font-style: italic;
+    font-weight:500; 
+    line-height: 1.6;  
+}
+.smt{
+    font-family:'Montserrat-SemiBold',sans-serif ;
+    font-style: normal;
+    font-weight: 300;
+}
+.reviewtitle{
+    font-family: 'Raleway-Medium';
+    font-style:normal;
+    font-weight: 400;
+}
+.testmtext{
+    font-family: 'PlayfairDisplay-Medium';
+    font-style: italic;
+    font-weight:100;
+}
+.footlink{
+    font-family: 'Raleway-Medium';
+    font-style: normal;
+    font-weight:400;
+}
+#subhero{
+    font-family: 'Raleway-Medium';
+    font-style: normal;
+    font-weight:500;   
+}
+.sochead{
+    font-family: 'Raleway-Medium';
+    font-style: normal;
+    font-weight:200;
+}
+.qa h2{
+    font-family: 'PlayfairDisplay-Medium';
+    font-style: normal;
+    font-weight:100;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin: 0px auto 40px auto;
+}
+.faq h3{
+    font-family:'Montserrat-SemiBold',sans-serif ;
+    font-style: normal;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+.faq p{
+    font-family: 'Raleway-Medium';
+    font-style: normal;
+    font-size: 1.2rem;
+    font-weight:400;
+    columns: #555;
+    margin-left: 20px;
+}

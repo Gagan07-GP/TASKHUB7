@@ -1,0 +1,45 @@
+.just {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my1 {
+    margin: 9px auto 20px auto;
+}
+
+.my2 {
+    margin: 7px auto 29px auto;
+}
+
+.footsec {
+    color: #ccc;
+    transition: color 0.3s ease, text-shadow 0.3s ease, opacity 0.3s ease;
+    position: relative;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.footsec:hover {
+    color: #fff;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    opacity: 1;
+}
+
+.footsec::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    display: block;
+    margin-top: 2px;
+    left: 0;
+    background: #fff;
+    transition: width 0.3s ease;
+}
+
+.footsec:hover::after {
+    width: 100%;
+    left: 0;
+    background: #fff;
+}

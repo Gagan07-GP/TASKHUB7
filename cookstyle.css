@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url('Montserrat,Playfair_Display,Raleway/Montserrat/static/Montserrat-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: url('Montserrat,Playfair_Display,Raleway/Montserrat/static/Montserrat-Light.ttf') format('truetype');
+    /* font-weight: normal; */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlayfairDisplay-Medium';
+    src: url('Montserrat,Playfair_Display,Raleway/Playfair_Display/static/PlayfairDisplay-Medium.ttf') format('truetype');
+    /* font-weight: normal; */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway-Medium';
+    src: url('Montserrat,Playfair_Display,Raleway/Raleway/static/Raleway-Medium.ttf') format('truetype');
+    /* font-weight: normal; */
+    font-style: normal;
+}
+
+#taskhd {
+    font-family: 'PlayfairDisplay-Medium';
+    /* font-style: ; */
+    font-weight: 700;
+    font-size: 32px;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+}
+
+#tasksubhd {
+    font-family: 'Montserrat-Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+}
+
+.priohdtext {
+    font-family: 'Raleway-Medium';
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+}
+
+.stathdtext {
+    font-family: 'Raleway-Medium';
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+}
+
+.tbtask tbody tr th {
+    font-family: 'Raleway-Medium';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 800;
+    color: #333;
+}
+
+/* #addt{
+    background-color: #007bff;
+} */
+.addtask {
+    font-family: 'Montserrat-SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    /* font-size: 14px; */
+    /* border-radius: 5px; */
+    /* background-color: #333; */
+    /* padding:8px 16px; */
+    color: #333;
+}
+
+.boxtext {
+    font-family: 'Montserrat-SemiBold';
+    font-style: normal;
+    /* background-color: #cfcfcf7e; */
+    border-radius: 10px;
+    margin: 0px 5px;
+    font-weight: 700;
+    font-size: 17px;
+    color: #000000;
+    margin-bottom: 47px;
+    width: 7.5vw;
+}
+
+.boxtexts {
+    font-family: 'Montserrat-SemiBold';
+    font-style: normal;
+    /* background-color: #cfcfcf7e; */
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 17px;
+    color: #000000;
+    margin-bottom: 26px;
+}
+
+/* .count {
+    font-family: 'Montserrat-SemiBold';
+    font-style: normal;
+    font-size: 7vh;
+    background-color: #cfcfcf7e;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #333333;
+} */
